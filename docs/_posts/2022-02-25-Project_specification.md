@@ -59,7 +59,6 @@ The following features will also be considered if there is time for implementati
 
 ```
 1.Quad-tree implementation for improved performance
-Using a Quad-tree data structure to
 2.Use Unity DOTS for better parallelisation and scalability
 ```
 ## References
