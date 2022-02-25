@@ -1,1 +1,8 @@
-theme: jekyll-theme-minimal
+
+title: Project Blog
+author: David Åsberg
+email: david.aasberg@gmail.com
+github_username: dasberg # DO NOT include the @ character, or else the build will fail!
+
+show_excerpts: true # set to false to remove excerpts on the homepage
+theme: minima

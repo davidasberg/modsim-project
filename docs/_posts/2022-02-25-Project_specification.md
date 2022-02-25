@@ -1,14 +1,14 @@
-
+---
 layout: post
 title: "Project Specification"
 date: 2022-02-25 15:35:00 -0000
 categories: Specification
-
+---
 # Simulation of ants gathering food using
 
 # pheromone trails
 
-## David ̊Asberg - dasberg@kth.se
+## David Åsberg - dasberg@kth.se
 
 ## February 2022
 
