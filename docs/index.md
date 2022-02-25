@@ -8,10 +8,3 @@ title: "Project Blog"
 
 This is a project in the course DD1354 where a ant based simulation will be made in Unity.
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="/docs{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
