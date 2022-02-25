@@ -8,7 +8,7 @@ categories: Specification
 
 # pheromone trails
 
-## David ̊Asberg - dasberg@kth.se
+## David Åsberg - dasberg@kth.se
 
 ## February 2022
 
