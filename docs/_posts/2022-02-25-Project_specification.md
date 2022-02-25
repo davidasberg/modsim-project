@@ -1,9 +1,9 @@
----
+
 layout: post
 title: "Project Specification"
-date: 2022-02-25
-categories: jekyll blogging
----
+date: 2022-02-25 15:35:00 -0000
+categories: Specification
+
 # Simulation of ants gathering food using
 
 # pheromone trails
