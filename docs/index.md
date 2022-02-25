@@ -1,8 +1,6 @@
-
 ---
 title: "Project Blog"
 ---
-
 
 # Simulation of ants gathering food usingpheromone trails
 
