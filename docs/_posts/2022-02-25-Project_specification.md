@@ -93,7 +93,7 @@ tion:
 
 ## 7 Project Blog
 
-Here is a link to the project blog: [Modsim-project(https://davidasberg.github.io/modsim-project/)
+Here is a link to the project blog: [Modsim-project](https://davidasberg.github.io/modsim-project/)
 
 ## References
 
