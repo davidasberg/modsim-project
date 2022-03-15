@@ -235,6 +235,7 @@ public class AntManager : MonoBehaviour
         for (int i = 0; i < foodClusters; i++)
         {
             //pick random point in circle
+            //make sure it is not too close to nest
             Vector2 spawnPoint = Vector2.zero;
             while (spawnPoint.magnitude < foodDistance - 1)
             {
