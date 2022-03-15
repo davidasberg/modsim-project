@@ -281,25 +281,6 @@ public class AntManager : MonoBehaviour
         return -boundsForceFactor * force;
     }
 
-    public IEnumerable<Ant> GetNeighbours(Ant ant)
-    {
-        //get ant collider
-        Collider2D antCollider = ant.GetComponentInChildren<Collider2D>();
-        //get collider of child 
-        Collider2D nestCollider = transform.GetComponentInChildren<Collider2D>();
-
-        //if antcollider and nestcollider collides
-
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(ant.pos, neighborRadius, 1 << LayerMask.NameToLayer("Ant"));
-        foreach (Collider2D collider in colliders)
-        {
-            Ant other = collider.GetComponentInParent<Ant>();
-            if (other != ant && other != null)
-                yield return other;
-        }
-
-    }
-
     public IEnumerable<Color> GetPheromonesWithinRadius(Vector2 pos, int radius)
     {
         //convert pos to camera space
