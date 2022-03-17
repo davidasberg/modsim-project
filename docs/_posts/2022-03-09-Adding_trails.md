@@ -52,6 +52,8 @@ This was much faster than traditional game objects.
 I then update the alpha channel each iteration to make the pheromone
 fade away over time. I also added a threshold to make sure that the
 pheromone does not need to be updated if it is below a certain value.
+This update follows the exponential decay equation:
+$S = S_0 * e^{-\lambda * t}$
 
 ```c#
    void UpdatePheromones()
